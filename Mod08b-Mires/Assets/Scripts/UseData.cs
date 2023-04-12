@@ -2,13 +2,23 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+
+/*
+    Data Use and Citation
+Download citation from Datacite
+RISBibTexOther
+Crosscite Citation Formatter
+Jacobs, N., W.R. Simpson, F. Hase, T. Blumenstock, Q. Tu, M. Frey, M.K. Dubey, and H.A. Parker. 2021. Ground-based Observations of XCO2, XCH4, and XCO, Fairbanks, AK, 2016-2019. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1831
+This dataset is openly shared, without restriction, in accordance with the EOSDIS Data Use Policy. 
+*/
+
 public class UseData : MonoBehaviour
 {/**
   * Tutorial link
   * https://github.com/tikonen/blog/tree/master/csvreader
   * */
 
-    List<Dictionary<string, object>> data; 
+List<Dictionary<string, object>> data; 
     public GameObject myCube;//prefab
     public int rowCount; //variable 
 
